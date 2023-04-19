@@ -1,65 +1,50 @@
 ﻿using System;
-
-namespace podschetstolbikov
+namespace _1501_VyvodDvymarnogoMassiva
 {
-    class Program
+    internal class Program
     {
-        static void PrintArray(int[,] array)
-        {
-            for (int i = 0; i < array.GetLength(0); i++)
-            {
-                for (int j = 0; j < array.GetLength(1); j++)
-                {
-                    Console.Write("{0,10:D}", array[i, j]);
-
-                }
-                Console.WriteLine();
-            }
-
-        }
         static void Main(string[] args)
         {
             string[] data = Console.ReadLine().Trim().Split();
-            int row = int.Parse(data[0]);
-            int column = int.Parse(data[1]);
-            int[,] array = new int[row, column];
-            int[] countEven = new int[column];
-            int[] countOdd = new int[column];
-            for (int i = 0; i < row; i++)
+            int n = int.Parse(data[0]);
+            int m = int.Parse(data[1]);
+            int[] num = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+            int[,] arr = new int[n, m];
+            int index = 0;
+            for (int i = 0; i < n; i++)
             {
-                string[] inputRow = Console.ReadLine().Split(' ');
-                for (int j = 0; j < column; j++)
+                for (int j = 0; j < m; j++)
                 {
-                    array[i, j] = int.Parse(inputRow[j]);
+                    arr[i, j] = num[index];
+                    index++;
+                }
+            }
+            PrintArr1(arr);
+        }
+        //static void PrintArr(int[,] arr)
+        //{
+        //    for (int i = 0; i < arr.GetLength(0); i++)
+        //    {
+        //        for (int j = 0; j < arr.GetLength(1); j++)
+        //        {
+        //            Console.Write(arr[i, j] + " ");
 
-                    if (array[i, j] % 2 == 0)
-                    {
-                        countEven[j]++;
-                    }
-                    else
-                    {
-                        countOdd[j]++;
-                    }
-                }
-            }
-            int countColumns = 0;
-            for (int j = 0; j < column; j++)
-            {
-                if (countEven[j] > countOdd[j])
-                {
-                    countColumns++;
-                }
-            }
-            Console.WriteLine(countColumns);
-            for (int j = 0; j < column; j++)
-            {
-                if (countEven[j] > countOdd[j])
-                {
-                    Console.Write((j + 1) + " ");
-                }
-            }
-            Console.WriteLine();
+        //        }
+        //        Console.WriteLine();
 
+        //    }
+        //    //PrintArr1(arr);
+        //}
+        static void PrintArr1(int[,] arr)
+        {
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    Console.Write("{0}\t", arr[i, j]);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
