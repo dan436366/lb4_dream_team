@@ -1,0 +1,15 @@
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\bin\Debug\net6.0\example.exe
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\bin\Debug\net6.0\example.deps.json
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\bin\Debug\net6.0\example.runtimeconfig.json
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\bin\Debug\net6.0\example.dll
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\bin\Debug\net6.0\example.pdb
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\example.csproj.AssemblyReference.cache
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\example.GeneratedMSBuildEditorConfig.editorconfig
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\example.AssemblyInfoInputs.cache
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\example.AssemblyInfo.cs
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\example.csproj.CoreCompileInputs.cache
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\example.dll
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\refint\example.dll
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\example.pdb
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\example.genruntimeconfig.cache
+X:\учёба\универ\палм\семестр 2\лаб 4\lab4\example\obj\Debug\net6.0\ref\example.dll
